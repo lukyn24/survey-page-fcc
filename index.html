@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>freeCodeCamp Survey Form</title>
+
+	<link rel="stylesheet" type="text/css" href="survey_styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="layer">
+<header id="header">
+	<h1 id="title">freeCodeCamp Survey Form</h1>
+	<p id="description">Thank you for taking the time to help us improve the platform</p>
+</header>
+
+<main>
+	<form id="surveyForm">
+		<div class="formPart">
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" placeholder="Enter your name" required>
+		</div>
+		<div class="formPart">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="Enter your Email" required>
+		</div>
+		<div class="formPart">
+			<label for="age">Age</label>
+			<input type="number" name="age" id="age" placeholder="Age">
+		</div>
+		<div class="radioPart">
+			<p>Would you recommend freeCodeCamp to a friend?</p>
+			<input type="radio" id="definitely" name="recommendation" value="definitely"><label for="definitely">Definitely</label><br>
+			<input type="radio" id="maybe" name="recommendation" value="maybe"><label for="maybe">Maybe</label><br>
+			<input type="radio" id="definitely" name="recommendation" value="definitely"><label for="definitely">Definitely</label><br>
+		</div>
+	</form>
+
+
+</main>
+
+
+</div>
+</body>
+</html>
