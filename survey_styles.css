@@ -16,7 +16,6 @@ h1 {
 }
 
 label {
-	display: block;
 	margin-bottom: 0;
 }
 
@@ -32,7 +31,7 @@ label {
 	margin: 0 25%;
 	border-radius: 0.25rem;
 	padding: 2.5rem;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 .formPart {
@@ -43,9 +42,26 @@ label {
 	width: 100%;
 }
 
+.smallerNote {
+	font-size: 0.8rem;
+}
+
 #job {
 	width: 100%;
 }
+
+.inputRadio {
+	display: flex;
+	align-items: center;
+}
+
+.inputRadio input {
+	margin: 0.6rem;
+	height: 1.3rem;
+	width: 1.3rem;
+}
+
+
 
 
 
